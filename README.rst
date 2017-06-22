@@ -15,7 +15,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install httpie-token-auth
+    $ pip install git+https://github.com/satterly/httpie-token-auth.git
 
 You should now see ``token`` under ``--auth-type`` in ``$ http --help`` output.
 
